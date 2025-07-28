@@ -1,4 +1,6 @@
 import { Box, Container, Grid, Heading, Image, SimpleGrid, Text, VStack, Link } from '@chakra-ui/react';
+import me from '/me.png';
+import wish from '/wishlist.png';
 
 const skillsData = [
   {
@@ -34,7 +36,7 @@ const HomePage = () => {
           <Box bg="#181818ff" p={4} borderRadius="md">
             <Image
               borderRadius={'md'}
-              src="/me.png"
+              src={me}
               alt="Steven Acosta-Pliego"
             />
           </Box>
@@ -92,7 +94,7 @@ const HomePage = () => {
             >
               <Image
                 borderRadius="md"
-                src="/wishlist.png" // Replace with project picture
+                src={wish}
                 alt="Featured Project"
               />
             </Box>
